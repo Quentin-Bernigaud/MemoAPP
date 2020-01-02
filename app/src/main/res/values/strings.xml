@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="edit_button">Edit Button</string>
+    <string name="Avatar">Avatar</string>
+    <string name="Connexion">Connexion</string>
+    <string name="Password">Mot de passe</string>
+    <string name="PasswordConfirmation">Confirmer le mot de passe</string>
+    <string name="Mail">Adresse mail</string>
+    <string name="FirstName">Prénom</string>
+    <string name="Name">Nom</string>
+    <string name="Signup">S\'inscrire</string>
+    <string name="Login">Se connecter</string>
+    <string name="Connexion_Message">Afin d\'utiliser cette application, veuillez vous authentifier</string>
+    <string name="Profile">Mon Compte</string>
+    <string name="Authentification">Authentification</string>
+    <string name="Inscription">Inscription</string>
+    <string name="TaskName">Nom de la tâche</string>
+    <string name="Description">Description</string>
+    <string name="Valider">Valider</string>
+    <string name="CurrentAvatar">Avatar courant</string>
+</resources>

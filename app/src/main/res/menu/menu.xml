@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item
+        android:id="@+id/avatar"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/Avatar"
+        app:showAsAction="always" />-->
+    <item
+        android:id="@+id/profile"
+        android:title="@string/Profile" />
+    <item
+        android:id="@+id/authentification"
+        android:title="@string/Authentification" />
+</menu>
