@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, UserInfoActivity::class.java))
         }
 
+        if (id == R.id.disconnect){
+            startActivity(Intent(this, AuthenticationActivity::class.java))
+        }
+
 //        if (id == R.id.authentification) {
 //            startActivity(Intent(this, AuthenticationActivity::class.java))
 //        }
