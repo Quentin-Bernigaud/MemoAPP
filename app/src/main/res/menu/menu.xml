@@ -10,6 +10,9 @@
         android:id="@+id/profile"
         android:title="@string/Profile" />
     <item
-        android:id="@+id/authentification"
-        android:title="@string/Authentification" />
+        android:id="@+id/disconnect"
+        android:title="@string/Deconnexion" />
+<!--    <item-->
+<!--        android:id="@+id/authentification"-->
+<!--        android:title="@string/Authentification" />-->
 </menu>

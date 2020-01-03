@@ -11,11 +11,9 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.android.example.recyclerview.network.TasksViewModel
 import kotlinx.android.synthetic.main.fragment_tasks.*
-import kotlinx.coroutines.MainScope
 import android.os.Bundle as Bundle1
 
 class TasksFragment : Fragment() {
-    private val coroutineScope = MainScope()
     private val tasksAdapter = TasksAdapter()
     private val tasksViewModel by lazy {
         ViewModelProvider(this).get(TasksViewModel::class.java)
@@ -76,17 +74,11 @@ class TasksFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-//        var glide = Glide.with(this)
-//        coroutineScope.launch {
-//            val userInfo = Api.userService.getInfo().body()!!
-//            glide.load(userInfo.avatar).circleCrop().into(avatar)
-//        }
         tasksViewModel.loadTasks()
     }
 
     companion object {
         private const val ADD_TASK_REQUEST_CODE = 1
         private const val UPDATE_TASK_REQUEST_CODE = 3
-        private const val USER_INFO_REQUEST_CODE = 10
     }
 }

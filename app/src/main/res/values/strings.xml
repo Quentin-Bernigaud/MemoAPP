@@ -11,7 +11,7 @@
     <string name="Name">Nom</string>
     <string name="Signup">S\'inscrire</string>
     <string name="Login">Se connecter</string>
-    <string name="Connexion_Message">Afin d\'utiliser cette application, veuillez vous authentifier</string>
+    <string name="Connexion_Message">Afin d\'utiliser cette application,\nveuillez vous authentifier</string>
     <string name="Profile">Mon Compte</string>
     <string name="Authentification">Authentification</string>
     <string name="Inscription">Inscription</string>
@@ -19,4 +19,5 @@
     <string name="Description">Description</string>
     <string name="Valider">Valider</string>
     <string name="CurrentAvatar">Avatar courant</string>
+    <string name="Deconnexion">Déconnexion</string>
 </resources>
